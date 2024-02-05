@@ -1,7 +1,7 @@
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
-  padding: 0px;
+  padding: 0;
   margin:0;
 }
 *{
@@ -9,8 +9,7 @@ body {
   padding:0;
   list-style:none;
   box-sizing:border-box;
- }
-
+   }
 nav{
   display:flex;
   background-color:#7E481C;
@@ -21,11 +20,7 @@ nav{
   font-weight:bold;
   padding-left:5rem;
   padding-right:5rem;
-     }
-.logo image{
-  width:200px;
-  height:300px;
-}
+    }
 
 h1 {
   font-size: 40px;
@@ -46,21 +41,21 @@ h1, h2, p {
 }
 
 .menu {
-  width: 80%;
+  width: 100%;
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
-  margin-top:50px;
   padding: 2rem;
   max-width: 40rem;
-
+  margin-top:50px;
 }
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:3px;
+  margin-top:-25px;
   margin-bottom: 2px;
+  padding-top: 1rem;
   max-height: 100%;
   max-width: 100%;
 }
@@ -88,12 +83,28 @@ h1, h2 {
 
 /* FOOTER */
 
-footer {
+.footer {
+  display:flex;
+  justify-content:space-around;
+  flex-direction:column;
   font-size: 14px;
+  background-color: peru;
+  font-size: 14px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top:4rem;
+}
+.address {
+  margin-bottom: 0;
 }
 
-.address {
-  margin-bottom: 5px;
+.row{
+  display:flex;
+  justify-content:space-between;
+}
+.footer-col{
+  display :flex;
+  flex-direction:column;
 }
 
 a {
