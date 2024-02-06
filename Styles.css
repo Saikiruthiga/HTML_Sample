@@ -85,38 +85,32 @@ h1, h2 {
 
 .footer {
   display:flex;
-  justify-content:space-around;
-  flex-direction:column;
+  justify-content: space-evenly;
   font-size: 14px;
   background-color: peru;
-  font-size: 14px;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding:20px;
   margin-top:4rem;
+  width:100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 .address {
   margin-bottom: 1rem;
-}
-.container{
-   display:flex;
-   flex-direction:column;
-   justify-content:space-around;
-}
-
-.row{
-  display:flex;
-  justify-content:space-around;
 }
 .footer-col{
   display :flex;
   flex-direction:column;
   align-items:center;
 }
-ul{
+
+ul li{
   display:flex;
   flex-direction:column;
   align-items:center;
-  margin-top:5px;
+  margin-bottom:10px;
+  justify-content: space-evenly;
+
   }
 
 a {
@@ -133,4 +127,13 @@ a:hover {
 
 a:active {
   color: brown;
+}
+@media(max-width:500px)
+{
+   .menu
+    {
+  width: 80%;
+  max-width: 30rem;
+
+   }
 }
