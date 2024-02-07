@@ -21,6 +21,16 @@ nav{
   padding-left:5rem;
   padding-right:5rem;
     }
+button{
+  background-color:Brown;
+  letter-spacing:2px;
+  width:5rem;
+  height:2rem;
+  border-radius:10px;
+  cursor:pointer;
+  border:none;
+  color:white;
+}
 
 h1 {
   font-size: 40px;
@@ -161,9 +171,7 @@ h2 {
   font-size: 15px;
   }
 ul li{
-margin-bottom: 0;
-
-
+margin:auto;
   }
 
 }
