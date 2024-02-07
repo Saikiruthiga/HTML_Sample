@@ -57,7 +57,7 @@ h1, h2, p {
   margin-right: auto;
   padding: 2rem;
   max-width: 40rem;
-  margin-top:50px;
+  margin-top:3rem;
 }
 img {
   display: block;
@@ -139,7 +139,7 @@ a:hover {
 a:active {
   color: brown;
 }
-@media(max-width:500px)
+@media(max-width:40rem)
 {
   nav{
   padding-left:3rem;
